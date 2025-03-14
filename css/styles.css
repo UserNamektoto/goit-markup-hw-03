@@ -26,9 +26,13 @@ a {
 }
 .header-logo .logo-part{
     color: #2e2f42;
-    border-bottom: 1px solid #e7e9fc;
+    
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+ 
 .footer-logo .logo-part{
     color: #f4f4fd;
 }
@@ -46,7 +50,9 @@ color: #2e2f42;
     container: ;
     width: 1158px; 
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-right: 76px;
 }
 
 .contacts {
