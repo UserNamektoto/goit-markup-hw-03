@@ -81,12 +81,6 @@ background-color: #2e2f42;
 }
 
 .btn {
-    background-color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
@@ -96,6 +90,13 @@ background-color: #2e2f42;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: flex;
+
 }
 
 .btn:hover,
