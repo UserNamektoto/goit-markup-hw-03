@@ -23,11 +23,11 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
+    display: flex;
 }
 .header-logo .logo-part{
     color: #2e2f42;
-    margin-right: 76px;
-    display: flex;
     
 }
 
