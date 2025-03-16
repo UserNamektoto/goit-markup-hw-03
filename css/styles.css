@@ -60,6 +60,7 @@ color: #2e2f42;
 
 .contacts {
     font-style: normal;
+    display: flex;
 }
 
 .contacts-link {
