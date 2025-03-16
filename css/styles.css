@@ -202,7 +202,9 @@ line-height: 1.2;
 }
 
 .divi {
-
+    display: flex;
+    container: default;
+    width: 1158px;
 }
 
 .img {
