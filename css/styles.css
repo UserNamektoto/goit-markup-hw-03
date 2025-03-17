@@ -46,14 +46,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-display: flex;
-gap: 40px;
-
 }
 
 .nav-item {
     display: flex;
-    container: ;
+    container: default;
     width: 1158px; 
     margin: 0 auto;
     padding-left: 15px;
@@ -73,8 +70,9 @@ color: #434455;
 }
 
 .header-nav {
-    display: flex;
     align-items: center;
+    display: flex;
+    gap: 40px;
 }
 
 .nav-link:hover,
