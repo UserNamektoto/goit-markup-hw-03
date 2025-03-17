@@ -56,10 +56,13 @@ color: #2e2f42;
     padding-left: 15px;
     padding-right:15px;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .contacts {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-link {
