@@ -219,6 +219,13 @@ line-height: 1.2;
 padding: 120px 0;
 }
 
+.visually-hidden {
+    font-size:20px;
+    line-height: 1.2;
+    padding: 120px 0;
+}
+
+
 .litt {
     display: flex;
     gap: 24px;
