@@ -228,8 +228,8 @@ padding: 120px 0;
 .ultitletwo {
    display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -258,7 +258,17 @@ padding: 120px 0;
 }
 
 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
     font-size:20px;
     line-height: 1.2;
-    padding: 120px 0;   
+    padding: 120px 0; 
 }
