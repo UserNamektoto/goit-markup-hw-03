@@ -225,13 +225,13 @@ padding: 120px 0;
     padding: 120px 0;
 }
 
-
-.lititlettwo {
-    display: flex;
+.ultitletwo {
+   display: flex;
     gap: 24px;
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
+
 
 .parag {
     color: #434455;
