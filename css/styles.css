@@ -64,10 +64,6 @@ padding: 24px 0;
     font-style: normal;   
 }
 
-.contacts-item {
-
-}
-
 .contacts-link {
 font-size: 16px;
 line-height: 1.5;
@@ -109,6 +105,7 @@ background-color: #2e2f42;
     background-color: #2e2f42;
     justify-content: center;
     padding: 188px 0;
+    max-width: 496px;
 
 }
 
@@ -126,6 +123,12 @@ background-color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn:hover,
@@ -236,4 +239,8 @@ line-height: 1.2;
 
 .img {
     display: block;
+}
+
+.containersi {
+container: default;
 }
