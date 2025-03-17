@@ -232,6 +232,11 @@ padding: 120px 0;
     width: calc((100% - 72px) / 4);
 }
 
+.lititletwo {
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
+}
+
 
 .parag {
     color: #434455;
