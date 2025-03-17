@@ -144,7 +144,13 @@ font-size: 20px;
 line-height: 1.2;
 font-weight: 500;
 letter-spacing: 0.02em;
+display: flex;
+gap: 24px;
+width: calc((100% - 72px) / 4);
+margin-bottom: 8px; 
 }
+
+
 
 .pgg {
     color: #434455;
@@ -213,9 +219,17 @@ letter-spacing: 0.02em
 color:#f4f4fd
 }
 
+.visually-hidden {
+    font-size:20px;
+    line-height: 1.2;
+    padding: 120px 0;
+}
+
 .htwotitletwo{
 font-size:20px;
 line-height: 1.2;
+padding: 120px 0;
+
 }
 
 .parag {
