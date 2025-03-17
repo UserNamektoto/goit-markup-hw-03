@@ -62,8 +62,12 @@ padding: 24px 0;
 
 .contacts {
     font-style: normal;
-    display: flex;
+    
+}
+
+.contacts-item {
     gap: 40px;
+    display: flex;
 }
 
 .contacts-link {
