@@ -224,10 +224,6 @@ letter-spacing: 0.02em
 color:#f4f4fd
 }
 
-.lititletwo:first-child{
-    width: calc((100% - 72px) / 4);
-}
-
 .htwotitletwo{
 font-size:20px;
 line-height: 1.2;
@@ -243,6 +239,11 @@ padding: 120px 0;
 .ultitletwo {
    display: flex;
     gap: 24px;
+}
+
+.lititletwo {
+    width: calc((100% - 72px) / 4);
+    padding: 0 15px,
 }
 
 .parag {
