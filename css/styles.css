@@ -224,10 +224,6 @@ letter-spacing: 0.02em
 color:#f4f4fd
 }
 
-.lititletwo:first-child{
-    width: calc((100% - 72px) / 4);
-}
-
 .htwotitletwo{
 font-size:20px;
 line-height: 1.2;
@@ -280,4 +276,8 @@ padding: 120px 0;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.first-li {
+    width: calc((100% - 72px) / 4);
 }
