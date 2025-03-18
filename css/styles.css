@@ -225,9 +225,14 @@ color:#f4f4fd
 }
 
 .htwotitletwo{
-font-size:20px;
+    font-size:20px;
 line-height: 1.2;
 padding: 120px 0;
+    .ultitletwo {
+        .lititletwo:first-child {
+                width: calc((100% - 72px) / 4);
+        }
+    }
 }
 
 .visually-hidden {
@@ -278,6 +283,3 @@ padding: 120px 0;
     overflow: hidden;
 }
 
-.first-li {
-    width: calc((100% - 72px) / 4);
-}
