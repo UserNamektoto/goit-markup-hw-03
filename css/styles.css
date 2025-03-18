@@ -224,7 +224,7 @@ letter-spacing: 0.02em
 color:#f4f4fd
 }
 
-.lititletwo:first-child{
+.ultitletwo:first-child{
     width: calc((100% - 72px) / 4);
 }
 
@@ -244,11 +244,6 @@ padding: 120px 0;
    display: flex;
     gap: 24px;
 }
-
-.lititletwo {
-
-}
-
 
 .parag {
     color: #434455;
