@@ -145,7 +145,6 @@ line-height: 1.2;
 font-weight: 500;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-width: calc((100% - 3 * 24px) / 4);
 }
 
 .pgg {
@@ -159,6 +158,8 @@ width: calc((100% - 3 * 24px) / 4);
     background-color: #F4F4FD;
      font-size: 36px;
      line-height: 1.11;
+     padding: 120px 0
+
 }
 
 .title-team {
@@ -168,6 +169,7 @@ width: calc((100% - 3 * 24px) / 4);
     text-transform: capitalize;
     color: #2e2f42;
     font-size: 36px;
+    margin-bottom: 72px;
 }
 
 p {
@@ -178,10 +180,17 @@ p {
     color:  #2e2f42;
 }
 
+.ul-teamitem {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-item {
     background-color: #FFFFFF;
     font-size: 36px;
     line-height: 1.11;
+    display: flex;
+    gap: 24px;
 }
 
 .title-portfolio {
@@ -230,11 +239,10 @@ padding: 120px 0;
 .ultitletwo {
    display: flex;
     gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
 }
 
 .lititletwo {
-width: calc((100% - 3 * 24px) / 4);
+
 }
 
 
